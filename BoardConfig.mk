@@ -15,6 +15,8 @@
 # Inherit from msm8226-common
 -include device/samsung/msm8226-common/BoardConfigCommon.mk
 
+TARGET_OTA_ASSERT_DEVICE := ms013g
+
 DEVICE_PATH := device/samsung/ms013g
 
 # Audio
