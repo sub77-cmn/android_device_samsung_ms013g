@@ -13,14 +13,14 @@
 # limitations under the License.
 
 # Inherit from the common Open Source product configuration
-$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from ms013g device
 $(call inherit-product, device/samsung/ms013g/device.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := ms013g
-PRODUCT_NAME := aosp_ms013g
+PRODUCT_NAME := full_ms013g
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-G7102
 PRODUCT_MANUFACTURER := samsung
