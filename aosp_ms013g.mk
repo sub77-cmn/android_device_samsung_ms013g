@@ -15,6 +15,9 @@
 # Inherit some common Bliss stuff.
 $(call inherit-product, vendor/aosp/common.mk)
 
+# Inherit from the common Open Source product configuration
+$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
+
 # Inherit device configuration
 $(call inherit-product, device/samsung/ms013g/full_ms013g.mk)
 
