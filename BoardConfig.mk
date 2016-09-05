@@ -22,8 +22,6 @@ TARGET_SYSTEM_PROP += device/samsung/ms013g/system.prop
 
 DEVICE_PATH := device/samsung/ms013g
 
-BLOCK_BASED_OTA=false
-
 # Audio
 AUDIO_FEATURE_ENABLED_MULTI_VOICE_SESSIONS := true
 AUDIO_FEATURE_SAMSUNG_DUAL_SIM := true
